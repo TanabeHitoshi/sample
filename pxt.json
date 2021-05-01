@@ -1,5 +1,6 @@
 {
     "name": "中学校技術家庭講習会",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
