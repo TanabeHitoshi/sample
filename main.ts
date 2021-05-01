@@ -1,16 +1,11 @@
 let x = 0
+let y = 0
 basic.forever(function () {
-    x = 0
-    for (let y = 0; y <= 4; y++) {
+    for (let k = 0; k <= 9; k++) {
+        x = randint(0, 4)
+        y = randint(0, 4)
         led.plot(x, y)
         basic.pause(1000)
-        x += 1
-    }
-    x = 4
-    for (let y = 0; y <= 4; y++) {
-        led.plot(x, y)
-        basic.pause(1000)
-        x = x - 1
     }
     basic.clearScreen()
 })
