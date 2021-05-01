@@ -1,6 +1,6 @@
 basic.forever(function () {
-    for (let y = 0; y <= 9; y++) {
-        for (let x = 0; x <= 4; x++) {
+    for (let x = 0; x <= 9; x++) {
+        for (let y = 0; y <= 4; y++) {
             led.plot(x, y)
             basic.pause(1000)
         }
